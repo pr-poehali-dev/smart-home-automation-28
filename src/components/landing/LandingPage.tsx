@@ -3,11 +3,9 @@ import { useScroll, useSpring, motion } from 'framer-motion'
 import Layout from './Layout'
 
 const pages = [
-  { id: 1, src: '/placeholder.svg', alt: 'Страница 1' },
-  { id: 2, src: '/placeholder.svg', alt: 'Страница 2' },
-  { id: 3, src: '/placeholder.svg', alt: 'Страница 3' },
-  { id: 4, src: '/placeholder.svg', alt: 'Страница 4' },
-  { id: 5, src: '/placeholder.svg', alt: 'Страница 5' },
+  { id: 1, src: 'https://cdn.poehali.dev/projects/d9438729-e716-46ce-97dd-0acb692488b6/bucket/bd6c0bed-f8c6-4405-84ac-bf5b315b2a39.png', alt: 'Страница 1' },
+  { id: 2, src: 'https://cdn.poehali.dev/projects/d9438729-e716-46ce-97dd-0acb692488b6/bucket/ca194c0b-cca8-4012-bac8-a0b56593aecb.png', alt: 'Страница 2' },
+  { id: 3, src: 'https://cdn.poehali.dev/projects/d9438729-e716-46ce-97dd-0acb692488b6/bucket/24849ff0-f1a8-49ea-9154-a1e3547bea2e.png', alt: 'Страница 3' },
 ]
 
 export default function LandingPage() {
